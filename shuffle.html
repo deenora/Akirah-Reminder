@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life Reminder - Shuffle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="reminders.html">Reminder</a>
+    <a href="garden.html">Gallery</a>
+    <a href="shuffle.html" class="active">Random Verse</a>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="shuffle-header">
+    <h1>✨ Tap to Pick a Reminder ✨</h1>
+    <p>Press the button, watch the cards shuffle, and receive your reminder.</p>
+  </header>
+
+  <!-- Shuffle Button -->
+  <div class="shuffle-controls">
+    <button onclick="startShuffle()" class="shuffle-btn"> Tap to Pick One </button>
+  </div>
+
+  <!-- Card Deck -->
+  <div class="shuffle-deck">
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (1).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (2).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (3).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="A small reminder today can be a great reward tomorrow">
+      <img src="images/pic (4).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Spread light, even if it’s just a spark of goodness">
+      <img src="images/pic (5).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Spread light, even if it’s just a spark of goodness">
+      <img src="images/pic (6).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Spread light, even if it’s just a spark of goodness">
+      <img src="images/pic (8).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="A small reminder today can be a great reward tomorrow">
+      <img src="images/pic (10).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="A small reminder today can be a great reward tomorrow">
+      <img src="images/pic (12).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="A small reminder today can be a great reward tomorrow">
+      <img src="images/pic (13).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="A small reminder today can be a great reward tomorrow">
+      <img src="images/pic (14).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Share goodness, for every act of kindness echoes in the Hereafter">
+      <img src="images/pic (15).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Share goodness, for every act of kindness echoes in the Hereafter">
+      <img src="images/pic (17).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (18).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (19).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (20).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="The best gift you can give is a reminder towards Allah">
+      <img src="images/pic (22).jpg" alt="Card">
+    </div>
+    <div class="card" data-text="Spread light, even if it’s just a spark of goodness">
+      <img src="images/pic (23).jpg" alt="Card">
+    </div>
+  </div>
+
+  <!-- Popup Result -->
+  <div id="shufflePopup" class="image-popup">
+    <div class="popup-box animate-popup">
+      <span class="close-btn" onclick="closeShuffle()">✖ Close</span>
+      <img id="shuffleImg" src="" alt="Random Reminder">
+      <p id="shuffleText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- Footer -->
+<footer class="site-footer">
+  
+  <p class="footer-dua">
+    🤲 اللَّهُمَّ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ <br>
+    <em>O Allah, guide us to the Straight Path.</em>
+    <p>🌸 Every small act of goodness plants a seed for the Hereafter.</p>
+  <p class="desktop-note">💻 Use Desktop site for a better experience.</p>
+  </p>
+</footer>
+
+
+</body>
+</html>
